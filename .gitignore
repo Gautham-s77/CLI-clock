@@ -1,5 +1,6 @@
 ./venv
 .pytest_cache
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
@@ -11,3 +12,4 @@
 *.pyzwzw
 *.pyzwzwzw
 *.pyzwzwzwzw
+alarm_clock/alarms.json

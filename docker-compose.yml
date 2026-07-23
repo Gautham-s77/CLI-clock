@@ -1,0 +1,9 @@
+services:
+  alarm-clock:
+    build: .
+    stdin_open: true
+    tty: true
+    devices:
+      - /dev/snd:/dev/snd
+    volumes:
+      - ./data/alarms.json:/app/alarm_clock/alarms.json
